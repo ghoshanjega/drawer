@@ -1,0 +1,105 @@
+class drawer.command.RectangleCommand
+class drawer.command.QuitProgramCommand
+class drawer.command.CreateCanvasCommand
+class drawer.command.LineCommand
+class drawer.command.BucketFillCommand
+Enter command:
+Blank Canvas of width 30 and height 10
+--------------------------------
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+|                              |
+--------------------------------
+Enter command:
+New Line from (1,1) to (5,5)
+--------------------------------
+|                              |
+| *                            |
+|  *                           |
+|   *                          |
+|    *                         |
+|     *                        |
+|                              |
+|                              |
+|                              |
+|                              |
+--------------------------------
+Enter command:
+New Line from (0,0) to (10,10)
+--------------------------------
+|*                             |
+| *                            |
+|  *                           |
+|   *                          |
+|    *                         |
+|     *                        |
+|      *                       |
+|       *                      |
+|        *                     |
+|         *                    |
+--------------------------------
+Enter command:
+New Rectangle from (13,1) to (18,7)
+--------------------------------
+|*                             |
+| *           ******           |
+|  *          *    *           |
+|   *         *    *           |
+|    *        *    *           |
+|     *       *    *           |
+|      *      *    *           |
+|       *     ******           |
+|        *                     |
+|         *                    |
+--------------------------------
+Enter command:
+New Bucket Fill at (13,1) with color g
+--------------------------------
+|*                             |
+| *           gggggg           |
+|  *          g    g           |
+|   *         g    g           |
+|    *        g    g           |
+|     *       g    g           |
+|      *      g    g           |
+|       *     gggggg           |
+|        *                     |
+|         *                    |
+--------------------------------
+Enter command:
+New Bucket Fill at (0,0) with color k
+--------------------------------
+|k                             |
+| *           gggggg           |
+|  *          g    g           |
+|   *         g    g           |
+|    *        g    g           |
+|     *       g    g           |
+|      *      g    g           |
+|       *     gggggg           |
+|        *                     |
+|         *                    |
+--------------------------------
+Enter command:
+New Bucket Fill at (3,4) with color j
+--------------------------------
+|k                             |
+|j*           gggggg           |
+|jj*          g    g           |
+|jjj*         g    g           |
+|jjjj*        g    g           |
+|jjjjj*       g    g           |
+|jjjjjj*      g    g           |
+|jjjjjjj*     gggggg           |
+|jjjjjjjj*                     |
+|jjjjjjjjj*                    |
+--------------------------------
+Enter command:
+Exit
